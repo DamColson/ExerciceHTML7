@@ -6,33 +6,33 @@
     <title>Exercice 7</title>
   </head>
   <body>
-    <form method="post" action="formulaire.php">
-    <fieldset class="Identité">
-      <legend id="identité">Votre Identité</legend>
+    <form method="post" action="form.php">
+    <fieldset class="Identity">
+      <legend id="Identity">Votre Identité</legend>
         <ol>
-          <li><label for="Nom">Nom : </label><input type="text" name="Nom" id="Nom" placeholder="Nom"/></li>
-          <li><label for="Prénom">Prénom : </label><input type="text" name="Prénom" id="Prénom" placeholder="Prénom"/></li>
-          <li><label for="Adresse Mail">Adresse Mail : </label><input type="mail" name="Adresse mail" id="Adresse mail" placeholder="Adresse Mail"/></li>
+          <li><label for="lastName">Nom : </label><input type="text" name="lastName" id="lastName" placeholder="Nom"/></li>
+          <li><label for="firstName">Prénom : </label><input type="text" name="firstName" id="firstName" placeholder="Prénom"/></li>
+          <li><label for="EMail">Adresse Mail : </label><input type="mail" name="Email" id="Email" placeholder="Adresse Mail"/></li>
         </ol>
     </fieldset>
-    <fieldset class="adresse">
-      <legend id="adresse">Adresse de livraison</legend>
+    <fieldset class="adress">
+      <legend id="adress">Adresse de livraison</legend>
         <ol>
-          <li><label for="Adresse">Adresse : </label><textarea name="Adresse" rows="6" cols="12"></textarea></li>
-          <li><label for="Code postal">Code postal : </label><input type="text" name="Code Postal" id="Code Postal" placeholder="Code Postal"/></li>
-          <li><label for="Ville">Ville : </label><input type="text" name="Ville" id="Ville" placeholder="Ville"/></li>
+          <li><label for="Adress">Adresse : </label><textarea name="Adress" rows="6" cols="12"></textarea></li>
+          <li><label for="ZIP">Code postal : </label><input type="text" name="ZIP" id="ZIP" placeholder="Code Postal"/></li>
+          <li><label for="Town">Ville : </label><input type="text" name="Town" id="Town" placeholder="Ville"/></li>
         </ol>
     </fieldset>
-    <fieldset class="règlement">
-      <legend id="règlement">Informations de règlement</legend>
+    <fieldset class="rules">
+      <legend id="rules">Informations de règlement</legend>
         <ol>
-          <li><label for="Type de carte bancaire">Type de carte bancaire</label><br/>
-              <input type="radio" name="carte" id="VISA" /> <label for="VISA">VISA</label><br />
-              <input type="radio" name="carte" id="Mastercard" /> <label for="Mastercard">Mastercard</label><br />
+          <li><label for="cards">Type de carte bancaire</label><br/>
+              <input type="radio" name="card" id="VISA" /> <label for="VISA">VISA</label><br />
+              <input type="radio" name="card" id="Mastercard" /> <label for="Mastercard">Mastercard</label><br />
           </li>
-          <li><label for="Numéro de carte">Numéro de carte : </label><input type="text" name="Numéro de carte" id="Numéro de carte" placeholder="Numéro de carte"/></li>
-          <li><label for="Code de sécurité">Code de sécurité : </label><input type="text" name="Code de sécurité" id="Code de sécurité" placeholder="Code de sécurité"/></li>
-          <li><label for="Nom du titulaire">Nom du titulaire : </label><input type="text" name="Nom du titulaire" id="Nom du titulaire" placeholder="Nom du titulaire"/></li>
+          <li><label for="cardNumber">Numéro de carte : </label><input type="text" name="cardNumber" id="cardNumber" placeholder="Numéro de carte"/></li>
+          <li><label for="securityCode">Code de sécurité : </label><input type="text" name="securityCode" id="securityCode" placeholder="Code de sécurité"/></li>
+          <li><label for="Owner">Nom du titulaire : </label><input type="text" name="Owner" id="Owner" placeholder="Nom du titulaire"/></li>
         </ol>
     </fieldset>
     <input type="submit" value="J'achète !" />
