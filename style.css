@@ -1,16 +1,15 @@
-.Identité, #identité
-{
+.Identité, #identité {
   background:#2574a9;
 }
-.adresse,#adresse
-{
+
+.adresse, #adresse {
   background:#9a12b3;
 }
-.règlement,#règlement
-{
+
+.règlement, #règlement {
   background:#db0a5b;
 }
-#VISA, #Mastercard
-{
+
+#VISA, #Mastercard {
   margin-left:45px;
 }

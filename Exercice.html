@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css"/>
-    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
     <title>Exercice 7</title>
   </head>
   <body>
+    <form method="post" action="formulaire.php">
     <fieldset class="Identité">
       <legend id="identité">Votre Identité</legend>
-      <form method="post" action="identité.php">
         <ol>
           <li><label for="Nom">Nom : </label><input type="text" name="Nom" id="Nom" placeholder="Nom"/></li>
           <li><label for="Prénom">Prénom : </label><input type="text" name="Prénom" id="Prénom" placeholder="Prénom"/></li>
           <li><label for="Adresse Mail">Adresse Mail : </label><input type="mail" name="Adresse mail" id="Adresse mail" placeholder="Adresse Mail"/></li>
         </ol>
-      </form>
     </fieldset>
     <fieldset class="adresse">
       <legend id="adresse">Adresse de livraison</legend>
-      <form method="post" action="adresse.php">
         <ol>
           <li><label for="Adresse">Adresse : </label><textarea name="Adresse" rows="6" cols="12"></textarea></li>
           <li><label for="Code postal">Code postal : </label><input type="text" name="Code Postal" id="Code Postal" placeholder="Code Postal"/></li>
           <li><label for="Ville">Ville : </label><input type="text" name="Ville" id="Ville" placeholder="Ville"/></li>
         </ol>
-        </form>
     </fieldset>
     <fieldset class="règlement">
       <legend id="règlement">Informations de règlement</legend>
-      <form method="post" action="règlement.php">
         <ol>
           <li><label for="Type de carte bancaire">Type de carte bancaire</label><br/>
               <input type="radio" name="carte" id="VISA" /> <label for="VISA">VISA</label><br />
@@ -38,8 +34,8 @@
           <li><label for="Code de sécurité">Code de sécurité : </label><input type="text" name="Code de sécurité" id="Code de sécurité" placeholder="Code de sécurité"/></li>
           <li><label for="Nom du titulaire">Nom du titulaire : </label><input type="text" name="Nom du titulaire" id="Nom du titulaire" placeholder="Nom du titulaire"/></li>
         </ol>
-      </form>
     </fieldset>
     <input type="submit" value="J'achète !" />
+      </form>
   </body>
 </html>
