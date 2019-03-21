@@ -21,15 +21,16 @@
       <form method="post" action="adresse.php">
         <ol>
           <li><label for="Adresse">Adresse : </label><textarea name="Adresse" rows="6" cols="12"></textarea></li>
-          <li><label for="Code postal">Code postal : <input type="text" name="Code Postal" id="Code Postal" placeholder="Code Postal"/></li>
-          <li><label for="Ville">Ville : <input type="text" name="Ville" id="Ville" placeholder="Ville"></li>
+          <li><label for="Code postal">Code postal : </label><input type="text" name="Code Postal" id="Code Postal" placeholder="Code Postal"/></li>
+          <li><label for="Ville">Ville : </label><input type="text" name="Ville" id="Ville" placeholder="Ville"/></li>
         </ol>
+        </form>
     </fieldset>
     <fieldset class="règlement">
       <legend id="règlement">Informations de règlement</legend>
       <form method="post" action="règlement.php">
         <ol>
-          <li><label for="Type de carte">Type de carte bancaire</label><br/>
+          <li><label for="Type de carte bancaire">Type de carte bancaire</label><br/>
               <input type="radio" name="carte" id="VISA" /> <label for="VISA">VISA</label><br />
               <input type="radio" name="carte" id="Mastercard" /> <label for="Mastercard">Mastercard</label><br />
           </li>
@@ -40,7 +41,5 @@
       </form>
     </fieldset>
     <input type="submit" value="J'achète !" />
-
-
   </body>
 </html>
